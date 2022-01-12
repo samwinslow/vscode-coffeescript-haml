@@ -1,0 +1,27 @@
+{
+    "name": "vscode-coffeescript-haml",
+    "displayName": "CoffeeScriptHaml Syntax Highlighting",
+    "description": "Syntax highlighting support for .hamlc files",
+    "author": "Sam Winslow",
+    "license": "MIT",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "haml-coffee",
+            "aliases": ["Haml Coffee", "hamlc"],
+            "extensions": [".hamlc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "haml-coffee",
+            "scopeName": "text.haml",
+            "path": "./syntaxes/coffeescript-haml.tmLanguage"
+        }]
+    }
+}
