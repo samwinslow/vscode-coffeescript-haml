@@ -3,6 +3,7 @@
     "displayName": "CoffeeScriptHaml Syntax Highlighting",
     "description": "Syntax highlighting support for .hamlc files",
     "author": "Sam Winslow",
+    "publisher": "samwinslow",
     "repository": "https://github.com/samwinslow/vscode-coffeescript-haml.git",
     "license": "MIT",
     "version": "0.0.1",
